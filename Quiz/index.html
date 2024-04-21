@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1 style="color: white;">Welcome to the <span style="color: rgb(162, 28, 106);">Akhil Samsun Mende</span>'s Quiz App!</h1>
+
+
+        <div id="quiz-type-selection">
+            <button id="quiz-type-1" class="btn">Math Quiz </button>
+            <button id="quiz-type-2" class="btn">Science Quiz</button>
+            <button id="quiz-type-3" class="btn">Social Quiz</button>
+        </div>
+        <div id="quiz-content" style="display: none;">
+            <div style="color: white;"class="question" id="question">Question goes here</div>
+            <div class="answers" id="answers">
+                <button class="btn">Option 1</button>
+                <button class="btn">Option 2</button>
+                <button class="btn">Option 3</button>
+                <button class="btn">Option 4</button>
+            </div>
+            <button id="submit" class="btn">Submit</button>
+        </div>
+        <div id="score-container" style="display: none;">
+            <h2 style="color: white;">Your Score: <span id="score">0</span></h2>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
