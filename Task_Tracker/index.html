@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task Tracker</h1>
+        <form id="taskForm">
+            <div class="form-group">
+                <label for="taskInput">Task:</label>
+                <input type="text" id="taskInput" placeholder="Enter task...">
+            </div>
+            <div class="form-group">
+                <label for="categorySelect">Category:</label>
+                <select id="categorySelect">
+                    <option value="work">Work</option>
+                    <option value="personal">Personal</option>
+                    <!-- Add more categories if needed -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="deadlineInput">Deadline:</label>
+                <input type="date" id="deadlineInput">
+            </div>
+            <button type="submit">Add Task</button>
+        </form>
+        <ul id="taskList"></ul>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
