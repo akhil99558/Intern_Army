@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: bisque;
+    padding: 5%;
+
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 200px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+}
